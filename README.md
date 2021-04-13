@@ -20,14 +20,47 @@ T.B.D.
 
 T.B.D.
 
-## Defining Video texture
+## Defining Videos
 
-T.B.D.
+```
+"extensions": {
+    "EXT_texture_video": {
+        "videos": [
+            {
+                "uri": "texture.mp4"
+            },
+            {
+                "bufferView": 0,
+                "mimeType": "video/mp4" 
+            }
+        ]
+    }
+}
+```
+
+## Defining Video textures
+
+```
+"textures": [
+    {
+        "source": 0, // index in images as fallback
+        "extensions": {
+            "EXT_texture_video": {
+                "source": 0 // index in videos
+            }
+        }
+    }
+]
+```
 
 ## Fallback
 
 T.B.D.
 
-## Toon material Types
+## Video Texture Types
 
-T.B.D.
+| Property | Type | Description | Requires |
+|:------|:------|:------|:------|
+| `uri` | `string` | | |
+| `bufferView` | `integer` | | |
+| `mimeType` | `string` | | |
