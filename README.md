@@ -61,6 +61,6 @@ T.B.D.
 
 | Property | Type | Description | Requires |
 |:------|:------|:------|:------|
-| `uri` | `string` | | |
-| `bufferView` | `integer` | | |
-| `mimeType` | `string` | | |
+| `uri` | `string` | | No |
+| `bufferView` | `integer` | | No |
+| `mimeType` | `string` | | No |
