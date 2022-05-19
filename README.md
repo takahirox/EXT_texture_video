@@ -14,7 +14,11 @@ Written against the glTF 2.0 spec.
 
 ## Overview
 
-T.B.D.
+The glTF 2.0 core spec allows only PNG and JPEG for texture images.
+
+This `EXT_texture_video` extension allows video as texture sources.
+With this extension objects with animated textures can be easily represented in glTF,
+ie. TV screen.
 
 ## Example screenshot
 
