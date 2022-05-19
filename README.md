@@ -20,10 +20,6 @@ This `EXT_texture_video` extension allows video as texture sources.
 With this extension objects with animated textures can be easily represented in glTF,
 ie. TV screen.
 
-## Example screenshot
-
-T.B.D.
-
 ## Defining Videos
 
 ```
