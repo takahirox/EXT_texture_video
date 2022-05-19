@@ -57,10 +57,14 @@ ie. TV screen.
 
 T.B.D.
 
-## Video Texture Types
+## Video Types
 
 | Property | Type | Description | Requires |
 |:------|:------|:------|:------|
 | `uri` | `string` | | No |
 | `bufferView` | `integer` | | No |
 | `mimeType` | `string` | | No |
+
+## Video Texture Types
+
+T.B.D.
